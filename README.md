@@ -1,75 +1,51 @@
-# 个人技术主页
+# 吕帅超
 
-**2026 届应届生 · 全栈开发方向 · 开源项目驱动成长**
+**Vue 前端 · 交互体验 · AI 应用**
 
-[![Vue](https://img.shields.io/badge/Vue-3.x-4FC08D?logo=vuedotjs&logoColor=white)](https://vuejs.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-20.x-339933?logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![uni-app](https://img.shields.io/badge/uni--app-3.x-2B9939?logo=uniapp&logoColor=white)](https://uniapp.dcloud.net.cn/)
-[![Claude API](https://img.shields.io/badge/Claude_API-SDK-1471C6?logo=anthropic&logoColor=white)](https://docs.anthropic.com/)
-[![DeepSeek](https://img.shields.io/badge/DeepSeek-API-4D6BFE)](https://platform.deepseek.com/)
-[![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)]()
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)]()
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)]()
+> 让界面有表现力，让操作有回应。
 
----
+我关注从“能运行”到“愿意用”的那一步：动效能否讲清流程，操作是否顺手，用户做好的内容能否被妥善保留。围绕这些细节，持续打磨自己的 Vue 项目。
 
-### 技能方向
+[**进入交互作品集 →**](https://lsc-261013.github.io/lv-shuaichao-portfolio/) · [联系我](mailto:shuaichao.lv@outlook.com)
 
-| 分类 | 能力 |
-|------|------|
-| **前端框架与工程化** | Vue 3 Composition API、uni-app 跨端开发、微信小程序原生、Pinia 状态管理 |
-| **服务端与工具链** | Node.js CLI 工具开发、LLM API 对接与多模型适配（Claude / DeepSeek / Kimi）、npm 包工程化 |
-| **语言与质量** | TypeScript 全栈类型覆盖、Jest 单元测试、ESLint 规范 |
-| **可视化与交互** | ECharts、Chart.js、Element Plus、微信小程序组件体系 |
+## 先体验，再看代码
 
----
+| 在线作品 | 值得体验的部分 | 链接 |
+| --- | --- | --- |
+| **拾页 · 视觉灵感工作台** | 从素材拖入、自由编排到裁切导出；添加新图片，保留原有布局 | [在线体验](https://lsc-261013.github.io/shiye-workbench/) · [源码](https://github.com/lsc-261013/shiye-workbench) |
+| **GroundDesk · AI 客服知识库** | 从提问到引用原文，再到只读订单查询与人工接管，让答案有据可查 | [在线 Demo](https://grounddesk-ai-lsc.onrender.com/demo) · [源码](https://github.com/lsc-261013/grounddesk-ai) |
+| **个人作品集 · 交互展厅** | 用滚动场景、微交互与手动操作串起作品，展示界面背后的使用过程 | [在线浏览](https://lsc-261013.github.io/lv-shuaichao-portfolio/) · [发布产物](https://github.com/lsc-261013/lv-shuaichao-portfolio) |
 
-### 实战项目
+### 一口一口瘦 · 把饮食记录整理成一餐
 
-#### AI Code Coach —— 个人编程教练 CLI 工具
+围绕“计划吃什么—实际吃了什么—回看记录”打磨日常操作：整道菜归为一组，配料按需展开；待吃与已吃分开；食谱支持编辑、批量管理和本地备份。
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-lsc--261013%2Fai--code--coach-181717?logo=github)](https://github.com/lsc-261013/ai-code-coach)
+**uni-app / Vue 3 / TypeScript / Pinia / 本地存储**
 
-命令行分析器 + 可视化仪表盘。能扫描任意代码目录，从风格、质量、安全性、性能四个维度评分，并追踪历史趋势。
+[项目源码与实际截图](https://github.com/lsc-261013/fat-loss-mini) · [作品展示](https://lsc-261013.github.io/lv-shuaichao-portfolio/)
 
-- **技术点**：Node.js CLI 架构、多模型适配器模式（DeepSeek / Claude / Kimi 一键切换）、Chart.js 深色主题仪表盘、Commander 命令框架、Jest 测试（30/30 通过）
-- **设计决策**：API Key 可选（无 Key 也能跑纯静态分析）、隐私脱敏（密钥检测 + 函数级上下文裁剪）、自包含 HTML 报告（双击即开）
+<sub>历史微信版本曾上线；当前改版提供源码与 H5 实测截图，最新微信发布状态以项目 README 为准。</sub>
 
-#### AI Review CLI —— AI 代码审查命令行工具
+## 我怎样推进项目
 
-[![GitHub Repo](https://img.shields.io/badge/GitHub-lsc--261013%2Fai--review--cli-181717?logo=github)](https://github.com/lsc-261013/ai-review-cli)
+- **从使用中的阻力出发。** 添加素材不该打乱排版，点击引用应该找到原文，一道菜的记录应当保持完整。这些具体问题，是我决定迭代方向的起点。
+- **让视觉服务操作。** 关注布局层次、微交互、场景动效与手机端体验，通过实际试用反复调整，让页面既有表现力，也能看懂、用顺。
+- **把反馈落实到位置。** 使用浏览器开发者工具查找容器和元素，结合截图与复现步骤缩小修改范围，再核对调整后的效果。
+- **把作品推进到可展示。** 采用 AI 协作工作流，串起需求取舍、界面迭代、操作核对与上线展示；通过 GitHub 保留项目与发布记录。
 
-调用 Claude API 自动扫描代码仓库，输出结构化安全报告（含严重度分级和修复建议），支持 HTML 和终端双输出。
+## 项目中使用的技术
 
-- **技术点**：TypeScript + Anthropic SDK、System Prompt 工程（三种审查模式：全面/安全/性能）、Commander CLI 框架、可视化 HTML 报告生成
+| 场景 | 技术 |
+| --- | --- |
+| Web 页面与应用 | Vue 3、TypeScript、Vite；按项目使用 Vue Router、Pinia |
+| 编辑与本地数据 | DOM / CSS、Pointer Events、IndexedDB；Canvas 用于 PNG 导出 |
+| 小程序与 H5 | uni-app、Vue 3、本地存储 |
+| AI 应用与托管 | GroundDesk 使用 Node.js / Fastify、Supabase、Render；静态作品使用 GitHub Pages |
 
-#### 轻脂记 —— 女性减脂助手（微信小程序）
-
-[![GitHub Repo](https://img.shields.io/badge/GitHub-lsc--261013%2Ffat--loss--mini-181717?logo=github)](https://github.com/lsc-261013/fat-loss-mini)
-
-面向女性用户的减脂记录小程序，AI 协同构建完成。全流程由 Claude Code 驱动，74 个 AI Skill 编排，分 14 个独立任务并行交付。
-
-- **技术点**：uni-app + Vue 3 Composition API + TypeScript + Pinia、ECharts 数据可视化、微信小程序云开发、14 个并发任务（5-10 个/阶段）
+<sub>技术栈对应项目实现；GroundDesk 使用虚构商家与模拟订单展示业务流程。</sub>
 
 ---
 
-### 竞赛经历
+软件技术专业 · 2026 届 · 正在寻找 **Vue 前端 / AI 应用相关机会**
 
-**"一带一路"暨金砖国家技能发展与技术创新大赛**
-
-数字孪生方向 · **国家级三等奖**
-
-- 完成数字孪生场景的构建与数据可视化，涉及前后端数据对接和实时状态映射
-
----
-
-### 关于我
-
-软件技术专业，2026 年毕业。日常用 Claude Code 保持高效工作流——写代码、调 prompt、对接 API、推仓库。擅长在短时间内把需求变成可运行的产品。
-
-当前方向是**全栈开发 + AI 应用落地**，正在把 Node.js 后端能力和 LLM API 经验结合起来做更多实用工具。
-
----
-
-<sub>更新于 2026 年 6 月</sub>
+欢迎通过 [shuaichao.lv@outlook.com](mailto:shuaichao.lv@outlook.com) 联系我，也欢迎从作品里挑一个细节展开交流。
