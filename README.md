@@ -49,12 +49,9 @@
 
 <sub>技术栈对应项目实现；GroundDesk 使用虚构商家与模拟订单展示业务流程。</sub>
 
-<details>
-<summary>相关课程</summary>
+### 相关课程
 
 软件技术专业课程涵盖 C 语言、Python、Linux、Android 与 MySQL 数据库；数据库课程包含增删改查实践。
-
-</details>
 
 ---
 
